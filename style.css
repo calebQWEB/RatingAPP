@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+
+body {
+    background: hsl(216, 12%, 8%);
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: hsl(213, 19%, 18%);
+    padding: 1.5rem;
+    width: 380px;
+    height: 370px;
+    border-radius: 20px;
+}
+
+
+.container i {
+    color: hsl(25, 97%, 53%);
+    background: hsl(213, 19%, 20%);
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 12px;
+    margin-bottom: 1rem;
+}
+
+.container h1 {
+    font-size: 28px;
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.container p {
+    font-size: 15px;
+    color: hsl(216, 12%, 54%);
+    font-family: 'Overpass', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.container #choices {
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+
+}
+
+.container #choices .ratings {
+    background: hsl(213, 19%, 20%);
+    padding: 17px;
+    border-radius: 50px;
+
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.highlight {
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+  }
+
+
+.container #choices .ratings:hover {
+    background: hsl(216, 12%, 54%);
+    cursor: pointer;
+}
+
+
+.container button {
+    background-color:  hsl(25, 97%, 53%);
+    margin-top: 1rem;
+    width: 100%;
+    padding: 13px 0;
+    border-radius: 20px;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-family: 'Overpass', sans-serif;
+}
+
+.container button:hover {
+    background: hsl(0, 0%, 100%);
+    cursor: pointer;
+    color: hsl(25, 97%, 53%);
+}
+
+
+
+
+
+/* THANK YOU PAGE */
+
+.container-1 {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: hsl(213, 19%, 18%);
+    padding: 1.5rem 1rem;
+    width: 380px;
+    height: 360px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container-1 img {
+    margin-bottom: 2rem;
+}
+
+.container-1 .your-choice {
+    margin: 0 15%;
+    margin-bottom: 2rem;
+    background: hsl(213, 19%, 30%);
+    color: hsl(25, 97%, 53%);
+    padding: 7px;
+    border-radius: 20px;
+    font-size: 15px;
+    justify-content: center;
+    font-family: 'Overpass', sans-serif;
+}
+
+.container-1 h2 {
+    color: hsl(0, 0%, 100%);
+    font-size: 28px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.container-1 p {
+    font-size: 15px;
+    color: hsl(216, 12%, 54%);
+    font-family: 'Overpass', sans-serif;
+}
